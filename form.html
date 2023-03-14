@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="audio-video.html">Audio-Video</a></li>
+            </ul>
+        </nav>
+            <h1>Welcome To My Website</h1>
+    </header>
+    <h1>পিঠা খাওয়ার ফর্ম</h1>
+    <form action="">
+        <p>Name:<input type="text" name="name" placeholder="Enter Your Name"></p>
+        <p>Email:<input type="email" name="email" placeholder="Enter Your Email"></p>
+        <fieldset>
+            <legend>
+                Select Your Pitha</legend>
+                <p>
+                    <label for="chitoy"><input type="radio" name="Pitha" id="chitoy">Chitoy</label>
+                </p>
+                <p>
+                    <label for="vapa"><input type="radio" name="Pitha" id="vapa">Vapa</label>
+                </p>
+                <p>
+                    <label for="dudh puli"><input type="radio" name="Pitha" id="dudh puli">Dudh Puli</label>
+                </p>
+                <p>
+                    <label for="pati shapta"><input type="radio" name="Pitha" id="pati shapta">Pati Shapta</label>
+                </p>
+                <p>
+                    <label for="antasha"><input type="radio" name="Pitha" id="antasha">Antasha</label>
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Vorta</legend>
+            <p><label for="sorisha"><input type="checkbox" name="vorta" id="sorisha">Shorisha</label></p>
+            <p><label for="shutki"><input type="checkbox" name="vorta" id="shutki">Shutki</label></p>
+            <p><label for="dhone pata"><input type="checkbox" name="vorta" id="dhone pata"></label>Dhone Pata</p>
+            <p><label for="begun"><input type="checkbox" name="vorta" id="begun"></label>Begun</p>
+            <p><label for="morich"><input type="checkbox" name="vorta" id="morich"></label>Morich</p>
+        </fieldset>
+        <p>Special Notes</p>
+        <br>
+        <textarea name="instruction" id="instruction" cols="30" rows="10"></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
